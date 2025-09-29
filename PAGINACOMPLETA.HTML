@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Minha Página Completa</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: #004080;
+      color: white;
+      padding: 20px;
+      position: sticky;
+      top: 0;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #004080;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    table, th, td {
+      border: 1px solid #888;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 10px 0;
+    }
+    .btn {
+      background: #008cba;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .video {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .icons {
+      margin-top: 10px;
+      font-size: 20px;
+    }
+    .icons i {
+      margin: 0 10px;
+      color: #004080;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌐 Minha Página Web</h1>
+  </header>
+
+  <div class="container">
+    <h2>📋 Tabela de Produtos</h2>
+    <table>
+      <tr>
+        <th>Produto</th>
+        <th>Preço</th>
+        <th>Quantidade</th>
+      </tr>
+      <tr>
+        <td>Notebook</td>
+        <td>R$ 3.500</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Mouse Gamer</td>
+        <td>R$ 150</td>
+        <td>5</td>
+      </tr>
+    </table>
+
+    <h2>✉️ Formulário de Contato</h2>
+    <form>
+      <label>Nome:</label>
+      <input type="text" name="nome" placeholder="Seu nome">
+      
+      <label>E-mail:</label>
+      <input type="email" name="email" placeholder="seu@email.com">
+      
+      <label>Mensagem:</label>
+      <textarea name="mensagem" rows="4" placeholder="Escreva sua mensagem..."></textarea>
+
+      <button class="btn" type="submit">Enviar</button>
+    </form>
+
+    <div class="video">
+      <h2>📹 Vídeo Tutorial</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/vJWaCZuWdD4" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="icons">
+      <h2>🔗 Redes Sociais</h2>
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fab fa-github"></i>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Minha Página Web. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
